@@ -1,0 +1,15 @@
+{
+  "name": "service-bot",
+  "version": "1.0.0",
+  "description": "بوت تيليجرام لعرض خدمات وارسال طلبات المشتري للمالك",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.12.3",
+    "dotenv": "^16.0.0"
+  }
+}
