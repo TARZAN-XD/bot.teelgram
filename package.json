@@ -1,15 +1,25 @@
+
 {
-  "name": "service-bot",
+  "name": "waqdi-earn",
   "version": "1.0.0",
-  "description": "بوت تيليجرام لعرض خدمات وارسال طلبات المشتري للمالك",
-  "main": "index.js",
+  "description": "Tarzan Alwaqdi earning site MVP",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "You",
-  "license": "MIT",
   "dependencies": {
-    "telegraf": "^4.12.3",
-    "dotenv": "^16.0.0"
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.17.3",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
-}
